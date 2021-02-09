@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#wholebody{
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+#cardinner{
+	width: 245px;
+	box-sizing: content-box;
+	padding: 13px;
+	border-radius: 20px;    
+	box-shadow: 2px 2px 11px 5px #0e0ab4eb;
+    background-image: linear-gradient(24deg, #23ff00, #f1edef,#f88c06);
+}
+table,tr,td{
+	border: 3.5px solid transparent; 
+}
+button{
+	    width: 100%;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 20.5px;
+    padding-right: 20.5px;
+    border-radius: 8px;
+    border: 2px solid #4b659b;
+    box-shadow: 2px 4px 4px 0px black;
+    background-color: transparent;
+    transition-duration: 0.4s;
+}
+button:hover {
+  background-color: #6574ff; /* Green */
+  color: white;
+}
+#backspace{
+	font-size: 14px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+#calculation{
+	border-radius: 10px;
+	height: 50px;
+	width: 100%;
+	text-align: right;
+	font-size: 21px;
+}
+.card-body{
+	padding:0;
+	margin: 0;
+}
+hr{
+	padding: 0px;
+	margin: 1px;
+}
+.card-text{
+  justify-content: center !important;
+}
+#heading{
+  text-align: center;
+}
+h1{
+	font-weight: bolder;
+	font-size: 50px;
+	color: blue;
+	font-family: 'Skranji', cursive;
+	animation: header 5s linear infinite;
+	animation-direction: alternate;
+}
+
+@keyframes header{
+	0% {
+    color: #1eb4e1;
+}
+25% {
+    color: #5632e5;
+}
+75% {
+    color: #1fbc48;
+}
+100% {
+    color: red;
+}
+}
+
+@media (max-width: 325px){
+	h1{
+		font-size: 30px;
+	}
+
+	button{
+	padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14.5px;
+    padding-right: 14.5px;
+	}
+	#backspace{
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 11px;
+   }
+}
