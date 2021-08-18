@@ -1,6 +1,7 @@
 let screen = document.getElementById("calculation");
+
 buttons = document.querySelectorAll("button");
-console.log("hello world");
+console.log("hello calculator! ");
 let svalue = "";
 for (btn of buttons) {
   btn.addEventListener("click", function (e) {
